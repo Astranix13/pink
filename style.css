@@ -110,13 +110,22 @@ body {
 
 /* download */
 .download {
-    margin-top: -67px;
     background-color: #1d2631;
-    padding: 490px 20px 0 20px;
+    padding: 0;
+    margin-top: -67px;
+    padding: 0 20px;
+}
+
+.download__iphone5 {
+    
     background-image: url("img/iphone5-in-hand.jpg");
     background-position: top;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    min-height: 462px;
+    padding: 0;
+    margin: 0 -20px;
+    margin-bottom: 28px;
 }
 
 .download__button {
