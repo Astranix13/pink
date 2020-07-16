@@ -1,0 +1,131 @@
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    width: 320px;
+    margin: 0 auto;
+}
+
+/* header */
+.header {
+    
+}
+
+.header__top {
+    display: flex;
+    padding: 22px 20px 0 20px;
+    justify-content: space-between;
+    height: 70px;
+    border-bottom: 1px solid #000000;
+    align-items: flex-start;
+    background-color: #283645;
+}
+
+.header__logo {
+
+}
+
+.header__logo-mobile {
+    margin: 0;
+}
+
+.header__nav-control {
+   margin: 0;
+
+   list-style: none;
+}
+
+
+.header__nav-control li {
+    width: 24px;
+    height: 24px;
+}
+
+.header__nav-close {
+    width: 24px;
+    height: 24px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.header__nav-close:hover path{
+    fill: #d22856;
+}
+
+.header__nav-close:active path{
+    fill: #d22856;
+    opacity: 0.3;
+}
+
+.header__nav-list {
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    background-color: #283645;
+    position: relative;
+    z-index: 10;
+}
+
+.header__nav-list li{
+    border-top: 1px solid #485461;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.header__nav-list a {
+    color: #ffffff;
+    text-decoration: none;
+   
+}
+
+.header__nav-list a:hover {
+    color: #d22856;
+}
+
+.header__nav-list a:active {
+    color: #d22856;
+    opacity: 0.3;
+}
+
+/* download */
+.download {
+    margin-top: -67px;
+    background-color: #1d2631;
+    padding: 490px 20px 0 20px;
+    background-image: url("img/iphone5-in-hand.jpg");
+    background-repeat: no-repeat;
+}
+
+.download__button {
+    border: 3px solid #ffffff;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
