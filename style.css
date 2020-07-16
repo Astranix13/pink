@@ -113,17 +113,18 @@ body {
     background-color: #1d2631;
     padding: 0;
     margin-top: -67px;
-    padding: 0 20px;
+    padding: 0;
 }
 
 .download__iphone5 {
     background-image: url("img/iphone5-in-hand.jpg");
-    background-position: top;
+    background-position: center;
     
     background-repeat: no-repeat;
     min-height: 462px;
+    background-size: cover;
     padding: 0;
-    margin: 0 -20px;
+    margin: 0;
     margin-bottom: 28px;
 }
 
