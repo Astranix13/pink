@@ -15,15 +15,13 @@
 body {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
+    line-height: 24px;
     width: 100%;
     margin: 0;
     padding: 0;
 }
 
 /* header */
-.header {
-    
-}
 
 .header__top {
     display: flex;
@@ -33,10 +31,6 @@ body {
     border-bottom: 1px solid #000000;
     align-items: flex-start;
     background-color: #283645;
-}
-
-.header__logo {
-
 }
 
 .header__logo-mobile {
@@ -142,4 +136,48 @@ body {
     padding-bottom: 15px;
     max-width: 280px;
     margin: auto;
+}
+
+.download__logos {
+    padding: 30px 20px 25px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.download__description {
+    text-align: center;
+    font-weight: 300;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+/* facts */
+
+.facts {
+    background-image: url("img/facts-shape.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.facts__tag {
+    font-size: 24px;
+    color: #1d2631;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.facts__definitions {
+    margin-top: 500px;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.facts__definitions p {
+    margin-bottom: 35px;
 }
